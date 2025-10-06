@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solork - Software Developer</title>
+    <meta name="description" content="Software developer portfolio showcasing web applications and developer tools">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <div class="avatar">👨‍💻</div>
+                </div>
+                <h1 class="glitch" data-text="Faizal Khilmi Muzakki">Faizal Khilmi Muzakki</h1>
+                <p class="tagline">Full Stack Developer</p>
+                <p class="bio">Building modern web applications with cutting-edge technologies. Always eager to learn new frameworks to deliver excellence in every project.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="tech-stack">
+        <div class="container">
+            <h2>Tech Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-icon">⚡</div>
+                    <div class="tech-name">JavaScript</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">🎨</div>
+                    <div class="tech-name">TypeScript</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">⚛️</div>
+                    <div class="tech-name">SvelteKit</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">🌐</div>
+                    <div class="tech-name">Cloudflare</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">🗄️</div>
+                    <div class="tech-name">D1 Database</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">🎯</div>
+                    <div class="tech-name">Node.js</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- URL Shortener -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🔗</div>
+                        <div class="project-status">Live</div>
+                    </div>
+                    <h3>URL Shortener</h3>
+                    <p class="project-description">
+                        A modern, lightning-fast URL shortener built with SvelteKit and TypeScript.
+                        Deployed on Cloudflare's edge network with D1 database for instant global access.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">SvelteKit</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Cloudflare D1</span>
+                        <span class="tag">Edge Computing</span>
+                    </div>
+                    <div class="project-features">
+                        <div class="feature">✓ Custom short codes</div>
+                        <div class="feature">✓ Click tracking</div>
+                        <div class="feature">✓ Real-time analytics</div>
+                        <div class="feature">✓ Edge-optimized</div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://shorten.solork.dev" class="btn btn-small btn-primary" target="_blank" rel="noopener noreferrer">
+                            🚀 Live Demo
+                        </a>
+                        <!-- <a href="https://github.com/solork/urlshortener" class="btn btn-small btn-secondary" target="_blank" rel="noopener noreferrer">
+                            💻 Source Code
+                        </a> -->
+                    </div>
+                </div>
+
+                <!-- Indentation Converter -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🔄</div>
+                        <div class="project-status">Live</div>
+                    </div>
+                    <h3>Indentation Converter</h3>
+                    <p class="project-description">
+                        A 100% client-side tool for converting code indentation between tabs and spaces.
+                        Privacy-focused - all processing happens in your browser, no data is uploaded.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Vanilla JS</span>
+                        <span class="tag">Client-Side</span>
+                        <span class="tag">Privacy-First</span>
+                        <span class="tag">Zero Dependencies</span>
+                    </div>
+                    <div class="project-features">
+                        <div class="feature">✓ 100% secure & private</div>
+                        <div class="feature">✓ Real-time conversion</div>
+                        <div class="feature">✓ Multiple formats</div>
+                        <div class="feature">✓ Works offline</div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://indentation-converter.solork.dev" class="btn btn-small btn-primary" target="_blank" rel="noopener noreferrer">
+                            🚀 Live Demo
+                        </a>
+                        <!-- <a href="https://github.com/solork/indentation-converter" class="btn btn-small btn-secondary" target="_blank" rel="noopener noreferrer">
+                            💻 Source Code
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <div class="container">
+            <h2>What I Do</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Frontend Development</h3>
+                    <p>Building responsive, modern web interfaces with attention to UX and performance</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend Development</h3>
+                    <p>Creating robust server-side applications and APIs with scalability in mind</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <h3>Cloud Deployment</h3>
+                    <p>Deploying applications on modern cloud platforms like Cloudflare Pages & Workers</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔒</div>
+                    <h3>Security & Privacy</h3>
+                    <p>Building secure applications with privacy-first principles and best practices</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p class="contact-intro">Interested in collaborating or have a project in mind?</p>
+            <div class="contact-links">
+                <a href="https://www.upwork.com/freelancers/~01835f7d2dfee37bfa" class="contact-btn" target="_blank" rel="noopener noreferrer">
+                    <span class="contact-icon">💼</span>
+                    <span class="contact-text">Upwork</span>
+                </a>
+                <a href="https://github.com/faizalkhilmi" class="contact-btn" target="_blank" rel="noopener noreferrer">
+                    <span class="contact-icon">💻</span>
+                    <span class="contact-text">GitHub</span>
+                </a>
+                <a href="mailto:faizal.khilmi@example.com" class="contact-btn">
+                    <span class="contact-icon">✉️</span>
+                    <span class="contact-text">Email</span>
+                </a>
+                <a href="https://linkedin.com/in/faizal-khilmi" class="contact-btn" target="_blank" rel="noopener noreferrer">
+                    <span class="contact-icon">🔗</span>
+                    <span class="contact-text">LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Faizal Khilmi Muzakki. Built with ❤️ and deployed on Cloudflare Pages.</p>
+            <p class="footer-tech">Vanilla JS • CSS3 • No frameworks • Fast & Lightweight</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
