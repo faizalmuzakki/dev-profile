@@ -247,8 +247,9 @@ MIT License - Feel free to use this template for your own portfolio!
 
 ## 🎯 Quick Links
 
-- 🔗 [URL Shortener Project](https://urlshortener.pages.dev)
-- 🔄 [Indentation Converter](https://indentation-converter.pages.dev)
+- 🔗 [URL Shortener Project](https://shorten.solork.dev)
+- 🔄 [Indentation Converter](https://indentation-converter.solork.dev)
+- 🍅 [Pomodoro Timer](https://pomodoro.solork.dev)
 - 💼 [Upwork Profile](https://www.upwork.com/freelancers/~01835f7d2dfee37bfa)
 
 ## ⭐ Show Your Support
