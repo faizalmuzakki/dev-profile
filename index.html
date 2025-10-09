@@ -3,13 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solork - Software Developer</title>
-    <meta name="description" content="Software developer portfolio showcasing web applications and developer tools">
+
+    <!-- Primary Meta Tags -->
+    <title>Faizal Khilmi Muzakki - Full Stack Developer | Modern Web Applications</title>
+    <meta name="title" content="Faizal Khilmi Muzakki - Full Stack Developer | Modern Web Applications">
+    <meta name="description" content="Full Stack Developer specializing in SvelteKit, TypeScript, and Cloudflare. Building modern web applications including URL shorteners, productivity tools, and developer utilities. Available for freelance projects.">
+    <meta name="keywords" content="full stack developer, web developer, SvelteKit, TypeScript, Cloudflare, JavaScript, Node.js, freelance developer, portfolio, URL shortener, pomodoro timer, web applications">
+    <meta name="author" content="Faizal Khilmi Muzakki">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://solork.dev/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://solork.dev/">
+    <meta property="og:title" content="Faizal Khilmi Muzakki - Full Stack Developer | Modern Web Applications">
+    <meta property="og:description" content="Full Stack Developer specializing in SvelteKit, TypeScript, and Cloudflare. Building modern web applications including URL shorteners, productivity tools, and developer utilities.">
+    <meta property="og:image" content="https://solork.dev/og-image.jpg">
+    <meta property="og:site_name" content="Faizal Khilmi Muzakki Portfolio">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://solork.dev/">
+    <meta property="twitter:title" content="Faizal Khilmi Muzakki - Full Stack Developer | Modern Web Applications">
+    <meta property="twitter:description" content="Full Stack Developer specializing in SvelteKit, TypeScript, and Cloudflare. Building modern web applications including URL shorteners, productivity tools, and developer utilities.">
+    <meta property="twitter:image" content="https://solork.dev/twitter-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Faizal Khilmi Muzakki",
+      "jobTitle": "Full Stack Developer",
+      "description": "Full Stack Developer specializing in modern web technologies",
+      "url": "https://solork.dev",
+      "sameAs": [
+        "https://github.com/faizalkhilmi",
+        "https://linkedin.com/in/faizal-khilmi",
+        "https://www.upwork.com/freelancers/~01835f7d2dfee37bfa"
+      ],
+      "knowsAbout": [
+        "JavaScript",
+        "TypeScript",
+        "SvelteKit",
+        "Node.js",
+        "Cloudflare",
+        "Web Development",
+        "Full Stack Development"
+      ],
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Professional Portfolio"
+      }
+    }
+    </script>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Hero Section -->
-    <section class="hero">
+    <header class="hero">
         <div class="particles" id="particles"></div>
         <div class="container">
             <div class="hero-content">
@@ -19,16 +78,16 @@
                 <h1 class="glitch" data-text="Faizal Khilmi Muzakki">Faizal Khilmi Muzakki</h1>
                 <p class="tagline">Full Stack Developer</p>
                 <p class="bio">Building modern web applications with cutting-edge technologies. Always eager to learn new frameworks to deliver excellence in every project.</p>
-                <div class="hero-buttons">
+                <nav class="hero-buttons">
                     <a href="#projects" class="btn btn-primary">View Projects</a>
                     <a href="#contact" class="btn btn-secondary">Get in Touch</a>
-                </div>
+                </nav>
             </div>
         </div>
-    </section>
+    </header>
 
     <!-- Tech Stack Section -->
-    <section class="tech-stack">
+    <section class="tech-stack" aria-label="Technology Stack">
         <div class="container">
             <h2>Tech Stack</h2>
             <div class="tech-grid">
@@ -61,14 +120,14 @@
     </section>
 
     <!-- Projects Section -->
-    <section class="projects" id="projects">
+    <section class="projects" id="projects" aria-label="Featured Projects">
         <div class="container">
             <h2>Featured Projects</h2>
             <div class="projects-grid">
                 <!-- URL Shortener -->
-                <div class="project-card">
+                <article class="project-card">
                     <div class="project-header">
-                        <div class="project-icon">🔗</div>
+                        <div class="project-icon" aria-hidden="true">🔗</div>
                         <div class="project-status">Live</div>
                     </div>
                     <h3>URL Shortener</h3>
@@ -89,19 +148,19 @@
                         <div class="feature">✓ Edge-optimized</div>
                     </div>
                     <div class="project-links">
-                        <a href="https://shorten.solork.dev" class="btn btn-small btn-primary" target="_blank" rel="noopener noreferrer">
+                        <a href="https://shorten.solork.dev" class="btn btn-small btn-primary" target="_blank" rel="noopener noreferrer" aria-label="View URL Shortener live demo">
                             🚀 Live Demo
                         </a>
                         <!-- <a href="https://github.com/solork/urlshortener" class="btn btn-small btn-secondary" target="_blank" rel="noopener noreferrer">
                             💻 Source Code
                         </a> -->
                     </div>
-                </div>
+                </article>
 
                 <!-- Indentation Converter -->
-                <div class="project-card">
+                <article class="project-card">
                     <div class="project-header">
-                        <div class="project-icon">🔄</div>
+                        <div class="project-icon" aria-hidden="true">🔄</div>
                         <div class="project-status">Live</div>
                     </div>
                     <h3>Indentation Converter</h3>
@@ -122,19 +181,19 @@
                         <div class="feature">✓ Works offline</div>
                     </div>
                     <div class="project-links">
-                        <a href="https://indentation-converter.solork.dev" class="btn btn-small btn-primary" target="_blank" rel="noopener noreferrer">
+                        <a href="https://indentation-converter.solork.dev" class="btn btn-small btn-primary" target="_blank" rel="noopener noreferrer" aria-label="View Indentation Converter live demo">
                             🚀 Live Demo
                         </a>
                         <!-- <a href="https://github.com/solork/indentation-converter" class="btn btn-small btn-secondary" target="_blank" rel="noopener noreferrer">
                             💻 Source Code
                         </a> -->
                     </div>
-                </div>
+                </article>
 
                 <!-- Pomodoro Timer -->
-                <div class="project-card">
+                <article class="project-card">
                     <div class="project-header">
-                        <div class="project-icon">🍅</div>
+                        <div class="project-icon" aria-hidden="true">🍅</div>
                         <div class="project-status">Live</div>
                     </div>
                     <h3>Pomodoro Timer</h3>
@@ -155,17 +214,17 @@
                         <div class="feature">✓ Auto-start sessions</div>
                     </div>
                     <div class="project-links">
-                        <a href="https://pomodoro.solork.dev" class="btn btn-small btn-primary" target="_blank" rel="noopener noreferrer">
+                        <a href="https://pomodoro.solork.dev" class="btn btn-small btn-primary" target="_blank" rel="noopener noreferrer" aria-label="View Pomodoro Timer live demo">
                             🚀 Live Demo
                         </a>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
     <!-- Skills Section -->
-    <section class="skills">
+    <section class="skills" aria-label="Skills and Expertise">
         <div class="container">
             <h2>What I Do</h2>
             <div class="skills-grid">
@@ -194,7 +253,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="contact" id="contact">
+    <section class="contact" id="contact" aria-label="Contact Information">
         <div class="container">
             <h2>Get in Touch</h2>
             <p class="contact-intro">Interested in collaborating or have a project in mind?</p>
@@ -203,15 +262,15 @@
                     <span class="contact-icon">💼</span>
                     <span class="contact-text">Upwork</span>
                 </a>
-                <a href="https://github.com/faizalkhilmi" class="contact-btn" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/faizalmuzakki" class="contact-btn" target="_blank" rel="noopener noreferrer">
                     <span class="contact-icon">💻</span>
                     <span class="contact-text">GitHub</span>
                 </a>
-                <a href="mailto:faizal.khilmi@example.com" class="contact-btn">
+                <a href="mailto:fkmuzakki@gmail.com" class="contact-btn">
                     <span class="contact-icon">✉️</span>
                     <span class="contact-text">Email</span>
                 </a>
-                <a href="https://linkedin.com/in/faizal-khilmi" class="contact-btn" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/faizal-khilmi-muzakki-487ab7164" class="contact-btn" target="_blank" rel="noopener noreferrer">
                     <span class="contact-icon">🔗</span>
                     <span class="contact-text">LinkedIn</span>
                 </a>
