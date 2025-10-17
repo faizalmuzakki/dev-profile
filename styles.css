@@ -260,6 +260,20 @@ body {
     font-weight: 600;
 }
 
+.project-status.featured {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    animation: pulse-featured 2s ease-in-out infinite;
+}
+
+@keyframes pulse-featured {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+    }
+    50% {
+        box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
+    }
+}
+
 .project-card h3 {
     font-size: 1.8rem;
     margin-bottom: 15px;
