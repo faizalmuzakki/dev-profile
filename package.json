@@ -17,5 +17,7 @@
   ],
   "author": "Solork",
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {
+    "sharp": "^0.34.4"
+  }
 }
